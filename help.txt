@@ -1,0 +1,39 @@
+
+$npm i -D nodemon
+
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+
+$npm i axios
+
+https://jsonplaceholder.typicode.com/users
+
+$npm i cookie-parser
+
+https://stackoverflow.com/a/7220510
+<pre>{JSON.stringify(user, null, 2)}</pre>
+
+
+https://stackoverflow.com/a/32598990
+if (typeof window !== 'undefined') {
+    window[WINDOW_USER_SCRIPT_VARIABLE] = data || {};
+}
+
+
+
+// And with this method we have two different kinds of redirects we have a permanent redirect which is a 301 redirect.
+// Or say word this site has moved to a different permanent address or a throw to redirect which is a temporary redirect.
+// And these different codes are significant for SEO purposes I believe.
+
+const redirectUser = (res, path) => {
+    if (res) {
+        res.redirect(302, path);
+        // tells next that we've handled the entire request response lifecycle and get initial props so that next knows to not keep writing to the response.
+        res.finished = true;
+        // then we'll just return an empty object because again we need to return some form of an object when we're executing get initial props
+        return {};
+    }
+
+
+};
